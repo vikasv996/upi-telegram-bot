@@ -1,0 +1,15 @@
+export enum SessionStep {
+
+    IDLE = "IDLE",
+
+    WAITING_ALIAS = "WAITING_ALIAS",
+
+    WAITING_UPI = "WAITING_UPI",
+
+    WAITING_NAME = "WAITING_NAME",
+
+    WAITING_AMOUNT = "WAITING_AMOUNT",
+
+    WAITING_NOTE = "WAITING_NOTE"
+
+}
